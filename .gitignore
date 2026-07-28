@@ -1,9 +1,4 @@
 ```
-# Dependencies
-backend/venv/
-backend/.venv/
-frontend/node_modules/
-
 # Python
 __pycache__/
 *.pyc
@@ -11,6 +6,10 @@ __pycache__/
 *.pyd
 .Python
 env/
+venv/
+.venv/
+.ENV
+.ENV.*
 .venv/
 venv/
 pip-log.txt
@@ -23,57 +22,54 @@ nosetests.xml
 coverage.xml
 *.cover
 *.log
-*.pot
-*.pyc
-*.pyo
-*.pyd
-.MF
-tags
-TAGS
-.IDEAssistant
+.git/modules/
 .DS_Store
-Thumbs.db
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Icon?
-iTunes_Control/
-.SafariFloaties
-._.Trashes
-.Trash-*
-.lok
-*~
-.project
-.pydevproject
-.metadata
-.venv.bak/
-venv.bak/
+.hg
+.svn
+.wafpickle-*
+.pytest_cache/
+.mypy_cache/
+.eggs/
+eggs/
+parts/
+develop-eggs/
+downloads/
+src/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.cjs
+.pnp.loader.mjs
+
+# Database
+*.db
+*.db-journal
+
+# ML models
+*.model
+*.sav
+*.joblib
+
+# Environment variables
 .env
 .env.local
-*.env
-*.env.*
+.env.*
 
-# Build artifacts
-backend/dist/
-backend/build/
-frontend/dist/
-frontend/build/
-ml_models/__pycache__/
-
-# Editors
+# IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*.tmp
 
-# Logs
-*.log
-
-# Coverage
-.coverage
-htmlcov/
-.coverage.*
+# Build artifacts
+dist/
+build/
+target/
 ```
